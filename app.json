@@ -16,11 +16,13 @@
       "supportsTablet": true
     },
     "android": {
+      "jsEngine": "hermes",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.matheusrufca.bandfindermobilefe"
+      "package": "com.matheusrufca.bandfindermobilefe",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "bundler": "metro",
@@ -29,7 +31,8 @@
     },
     "plugins": [
       "expo-router",
-      "expo-font"
+      "expo-font",
+      "@react-native-google-signin/google-signin"
     ],
     "experiments": {
       "typedRoutes": true
@@ -41,6 +44,12 @@
       "eas": {
         "projectId": "2d9a6c9e-2577-4386-acd1-a73e9d2159d8"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/2d9a6c9e-2577-4386-acd1-a73e9d2159d8"
     }
   }
 }

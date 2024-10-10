@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020448917422",
+    "project_id": "bandfinder-app",
+    "storage_bucket": "bandfinder-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020448917422:android:3325da45751425d1ccea3f",
+        "android_client_info": {
+          "package_name": "com.matheusrufca.bandfindermobilefe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020448917422-3guatsdlnp5hboepbpume4th4ichsv49.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.matheusrufca.bandfindermobilefe",
+            "certificate_hash": "9170317d58662850fbf9800c774ba5781558280e"
+          }
+        },
+        {
+          "client_id": "1020448917422-8mmojr0tt8cg72u9aejcdknio83b4efl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCe3tRJrbGdjteKPVp8lP-mljm1YZxAVxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020448917422-8mmojr0tt8cg72u9aejcdknio83b4efl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
